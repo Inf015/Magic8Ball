@@ -12,7 +12,7 @@ class _BallState extends State<Ball> {
   int ball = 1;
 
   void responderPregunta(){
-    ball = Random().nextInt(4)+1;
+    ball = Random().nextInt(5)+1;
     setState(() {
 
     });
